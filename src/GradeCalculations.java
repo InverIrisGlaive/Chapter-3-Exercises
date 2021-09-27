@@ -1,4 +1,4 @@
-public class CS2910 {
+public class GradeCalculations {
     public static int CalculateFinalGrade( int[] grades) throws Exception{ //type "throws" to  the method that a exception might occur here)
         double finalGrade = 0; // we use double data type here for finalGrade to avoid rounding error, then turning the finalGrade into int last.
         if (grades.length != 9)
@@ -16,7 +16,7 @@ public class CS2910 {
                 case 6, 7 -> finalGrade += grades[i] * 0.2;
                 case 8 -> finalGrade += grades[i] * 0.25;
 
-            /* the above is the enhanced switch statement which does the same thing
+            /* the above is the enhanced switch statement which does the same thing as the basic switch statement below:
             switch (i) {
                    case 0:
                        finalGrade += grades[i] *0.1;
