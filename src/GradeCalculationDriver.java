@@ -27,7 +27,7 @@ try {
    result: java.lang.Exception: Grades must be between 0 and 100.
  */
 
-public class DriverToCalcGrade {
+public class GradeCalculationDriver {
     public static void main(String[] args) { //You can also just type "throws" here and pass the exception up, and not type a try...catch statement
         //but this means this method won't deal with the exception thrown in the CS2910 method. if you want to solve the exception thrown in the
         //cs2910 method, you don't type "throws", and you type a try catch statement here
